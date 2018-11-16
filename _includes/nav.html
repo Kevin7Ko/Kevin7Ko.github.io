@@ -13,6 +13,14 @@
                 </li>
             {% endif %}
         {% endif %}
+        
+        {% if site.rbasic == true %}
+            {% if page.title != "RBasic" %}
+                <li class="item">
+                    <a class="link" href="{{ site.url }}/rbasic">R Basic</a>
+                </li>
+            {% endif %}
+        {% endif %}
 
         {% if site.projects == true %}
             {% if page.title != "Projects" %}

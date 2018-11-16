@@ -31,7 +31,7 @@ permalink: /:title/
 # if you don't want comments in your posts, leave categories empty
 disqus:
   shortname: mydisqus # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+  categories: [blog, rbasic, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
 facebook: myfacebook
@@ -54,12 +54,12 @@ medium: medium
 email: kevin.ko@agilesoda.com
 
 authors:
-    johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+    kevin:
+        name: Kevin Ko
+        bio: A Man who travels the Number World with ...
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: johndoe
+        twitter: kevin7ko
     jamesfoster:
         name: James Foster
         bio: A Man who develops software with coffee
@@ -76,8 +76,11 @@ width: large
 paginate: 5
 paginate_path: "blog/:num/"
 
+# if you don't need RBasic, comment the *rbasic* configs below
+rbasic: true
+
 # if you don't need projects, comment the *projects* configs below
-# projects: true
+projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
@@ -96,7 +99,7 @@ related: true
 post-advance-links: [blog]
 
 # show author block at the end of a post ?
-show-author: true
+show-author: false
 
 # do you want some animations?
 animation: true
